@@ -23,8 +23,8 @@ app.get('/', async (req, res) => {
 }
 
 }
-app.listen(port, () => {
+app.listen
 
-    console.log('listening on port ' + port)
+    
 
-})
+
