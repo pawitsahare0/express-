@@ -10,20 +10,11 @@ app.get('/', async (req, res) => {
 
     const {url} = req.query
 
-    
+ const readable = fs.createReadStream(url)
 
-    if (!url) {
-
-         return res.send("url miss")
-    } else {
-
-        // generate puppeteer screenshot 
-    
-    const readable = fs.createReadStream(url)
-}
 
 }
-app.listen
+app.listen(3000)
 
     
 
